@@ -1,0 +1,15 @@
+﻿@model IEnumerable<AgenciaDeViagens.Models.Pacote>
+
+<div>
+    <h2>Promoções</h2>
+</div>
+
+@foreach(var pacote in Model)
+{
+  <div>
+      <h4>@pacote.PacoteNome</h4>
+      <p><img src="~/images~/images/destinos/Porto-Seguro-BA.jpg"</p>
+      <h3>Preço : @pacote.Preco</h3>
+  </div>  
+
+}
